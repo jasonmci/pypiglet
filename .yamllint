@@ -5,6 +5,8 @@ yaml-files:
   - '*.yml'
   - '.yamllint'
 
+ignore:
+  - 'envs'
 rules:
   braces: enable
   brackets: enable
